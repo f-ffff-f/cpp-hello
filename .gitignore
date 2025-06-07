@@ -39,6 +39,7 @@
 build/
 Build/
 BUILD/
+build-wasm/
 bin/
 obj/
 debug/
