@@ -18,16 +18,12 @@ Vector3D::Vector3D() : x(0.0), y(0.0), z(0.0)
     // 보통 초기화 리스트에서 모든 작업을 끝내므로, 본문은 비어있는 경우가 많다.
 }
 
-Vector3D::Vector3D() : x(0.0), y(0.0), z(0.0) {}
-
 // 위와 마찬가지로, Vector3D 클래스에 소속된, double 타입 3개를 받는 생성자이다.
 // 멤버 x는 파라미터 x_val 값으로, y는 y_val 값으로, z는 z_val 값으로 초기화한다.
 Vector3D::Vector3D(double x_val, double y_val, double z_val) : x(x_val), y(y_val), z(z_val)
 {
     // 여기도 본문은 비어있다.
 }
-
-Vector3D::Vector3D(double x_val, double y_val, double z_val) : x(x_val), y(y_val), z(z_val) {}
 
 // 3. 멤버 함수 구현
 
